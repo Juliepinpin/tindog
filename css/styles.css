@@ -1,0 +1,172 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+button {
+  background-color: #ff4c68;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.row {
+  padding-top: 50px;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900 !important;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Title */
+
+#title .container-fluid {
+  padding: 3% 15% 9%;
+  text-align: left;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  padding: 0 0 1.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.title-image {
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding-top: 8%;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  /* position absolute will get 'features' out of the HTML flow, relative will keep it in the flow */
+  position: relative;
+  /* z-index only works if there is a position defined */
+  /* z-index is not necessary in this case because the positioned element below is on top either way */
+}
+
+.feature-logo {
+  color: #ef8172;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+.feature-logo:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+
+/* Testimonials */
+
+#testimonials.colored-section {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 18%;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+
+.testimonial-text {
+font-size: 3rem;
+line-height: 1.5;
+}
+
+
+/* Press */
+
+#press.colored-section {
+  background-color: #ef8172;
+}
+
+.press_image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+font-size: 2.5rem;
+line-height: 1.5;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+  }
+
+
+/* CTA */
+
+
+
+/* Footer */
+
+.socials {
+  padding: 1.5%;
+}
+
+
+/* Good practice tips:
+- Use ID's very sparingly
+- Try to use only one class per element (with bootstrap there will most likely be more)
+- Avoid inline styles at all cost */
